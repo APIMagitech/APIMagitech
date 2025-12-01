@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\publish",
+    "\\publish\\publish",
+    "\\publish\\release",
+    "\\publish\\release\\publish",
+    "\\release",
+    "\\release\\publish",
+    "\\release\\publish\\publish"
+  ],
+  "SelectedNode": "\\publish\\release\\publish\\web.config",
+  "PreviewInSolutionExplorer": false
+}

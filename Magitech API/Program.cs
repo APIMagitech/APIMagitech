@@ -15,8 +15,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Configurar banco de dados
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+    ?? "Host=ep-hidden-field-adsjor7g-pooler.c-2.us-east-1.aws.neon.tech;Database=neondb;Username=neondb_owner;Password=npg_seuxhl30YfBP;SSL Mode=Require";
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(connectionString));
 
 // Configurar CORS para permitir seu site React
 builder.Services.AddCors(options =>

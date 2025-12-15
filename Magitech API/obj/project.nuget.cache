@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iYGLv1VS9Eg=",
+  "dgSpecHash": "ZHFzKG10KLQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\41049455878\\Desktop\\APIs\\Magitech API\\Magitech API\\Magitech API.csproj",
+  "projectFilePath": "C:\\Users\\41049455878\\Desktop\\MagitechCentral\\APIMagitech\\Magitech API\\Magitech API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\41049455878\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\41049455878\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
